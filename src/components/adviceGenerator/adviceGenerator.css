@@ -1,0 +1,87 @@
+.advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #202733;
+}
+
+.adviceWrapper {
+    background-color: #313A48;
+    width: 540px;
+    height: 360px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.adviceBox {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.adviceBoxTitle {
+    color: #53FFAA;
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+
+.adviceBoxDesc {
+    color: #CEE3E9;
+    margin-top: 30px;
+
+}
+
+.adviceBoxSepIcon {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.randomAdvice{
+    width: 60px;
+    height: 60px;
+    background-color: #53FFAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+    bottom: -30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.randomAdvice:hover {
+    box-shadow: #05ba60 0px 10px 36px 0px, #08c064 0px 0px 0px 1px;
+}
+
+.disableButton {
+    background-color: white;
+}
+
+.disableButton:hover {
+    box-shadow: #d5d5d5 0px 10px 36px 0px, #e1e1e1 0px 0px 0px 1px;
+
+}
+
+.randomAdviceImg {
+    width: 25px;
+}
+
+@media (max-width:500px) {
+    .adviceWrapper {
+        width: 350px;
+        height: 350px;
+    
+    
+    }
+}
